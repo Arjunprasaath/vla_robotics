@@ -10,4 +10,7 @@ rl_algo/
 
 # Virtual environments
 .venv
+
+# File to ignore
 notes.txt
+test.py
