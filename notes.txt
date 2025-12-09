@@ -1,0 +1,11 @@
+For allocating job:
+salloc -N 1 -n 6 --account=p32722 --mem=10G --partition=gengpu --gres=gpu:h100:1 --time=10:00:00
+
+To use the allocated node:
+ssh nodename
+
+View active instances:
+squeue -u netid
+
+Cancel jobs:
+scancel job_ID
